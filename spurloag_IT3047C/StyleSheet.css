@@ -1,0 +1,218 @@
+﻿html {
+    overflow-y: scroll;
+}
+
+header {
+    text-align: center;
+}
+.home-button {
+
+    float:left;
+    display:block;
+
+}
+#wrapper {
+    max-width: 78%;
+    margin: 0 auto;
+}
+
+.nav-div{
+    
+    width:100%;
+
+}
+.nav-div ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.nav-div ul li {
+    display:inline-block;
+}
+.nav-div a {
+    padding: 20px;
+    text-align:center;
+}
+/*
+
+    LANDING PAGE -- PROJECTS NAV (holds links to other projects)
+
+*/
+
+.projects-div {
+    background-color: mistyrose;
+    padding: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #000000;
+}
+.projects-div p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 2em;
+}
+.projects-list-classname {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    border-bottom: 1px solid #000000;
+}
+.projects-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.projects-list li {
+    font-family: Arial, sans-serif;
+    color: black;
+    padding: 0;
+    margin: 1.2em 6em;
+    border-radius: 2em;
+    box-shadow: 0 0 2px .1px #000000;
+}
+
+.projects-list a {
+    display: block;
+    text-decoration: none;
+    padding: 1em 4em;
+    color: black;
+}
+
+.projects-list li:hover {
+    background-color: whitesmoke;
+    box-shadow: 0 7px 10px #000000;
+    transition: ease-in 1s;
+}
+/*
+
+    END LANDING PAGE -- PROJECTS NAV (holds links to other projects)
+
+*/
+
+h1 {
+    display: block;
+    font-weight: lighter;
+    font-size: 5em;
+    margin-bottom: 1.3em;
+    text-align: center;
+    color: #185875;
+}
+
+#form1 {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+body {
+    background-color: snow;
+    font-weight: 300;
+    line-height: 1.42em;
+    color: #A7A1AE;
+}
+
+#txtBox_UserNumber {
+    margin-bottom: 1em;
+    border-radius: 35px;
+    font-size: 2em;
+    padding: 20px;
+    height: 28px;
+    width: 450px;
+    border: 1px solid #eaeaea;
+    outline: none;
+}
+
+    #txtBox_UserNumber:hover {
+        box-shadow: 0 0 1px 1px #185875;
+    }
+
+#btn_GetUserNumber {
+    position: absolute;
+    margin-left: -140px;
+    font-weight: bold;
+    font-size: 16pt;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: none;
+    color: #A7A1AE;
+    width: 140px;
+    padding: 22px;
+}
+
+    #btn_GetUserNumber:hover {
+        cursor: pointer;
+        background: #f8f8f8;
+    }
+
+#btn_LoadView {
+    border-style: none;
+    margin: 0;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: bold;
+    font-size: 10pt;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    color: #A7A1AE;
+    width: 200px;
+    padding: 22px;
+    height: 65px;
+}
+
+#lstBox_ViewTabs {
+    border-top-left-radius: 35px;
+    padding-left: .3em;
+    font-size: 3em;
+}
+
+.views {
+    font-size: 10em;
+    color: aquamarine;
+}
+
+.submit_button {
+
+
+
+}
+
+/*
+
+    ASSIGNMENT 3 CSS
+
+*/
+
+.box-container {
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width: 500px;
+    margin:0 auto;
+}
+.box-1, .box-2, .box-3 {
+    margin: 0 auto;
+    width: 160px;
+    height: 200px;
+
+}
+.drop-down-list, .done-button {
+    margin-bottom: 20px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+
+/*
+
+    END ASSIGNMENT 3 CSS
+
+*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
